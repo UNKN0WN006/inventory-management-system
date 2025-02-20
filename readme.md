@@ -80,7 +80,7 @@ The Inventory Management System (IMS) is a command-line application developed in
 
 ### Instructions for Using the README.md
 
-1. **Replace `yourusername`**: Make sure to replace `yourusername` in the clone URL with your actual GitHub username.
+1. **Replace `UNKN0WN006`**: Make sure to replace `UNKN0WN006` in the clone URL with your actual GitHub username.
 
 2. **Add License Information**: If you have a specific license for your project, make sure to include it in the `LICENSE` file and reference it in the README.
 
