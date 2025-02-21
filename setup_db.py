@@ -1,10 +1,8 @@
 import sqlite3
 
-# Connect to the SQLite database (or create it if it doesn't exist)
 conn = sqlite3.connect('inventory.db')
 cursor = conn.cursor()
 
-# Create products table
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS products (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -14,7 +12,6 @@ CREATE TABLE IF NOT EXISTS products (
 )
 ''')
 
-# Create purchases table
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS purchases (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -26,7 +23,6 @@ CREATE TABLE IF NOT EXISTS purchases (
 )
 ''')
 
-# Commit changes and close the connection
 conn.commit()
 conn.close()
 
